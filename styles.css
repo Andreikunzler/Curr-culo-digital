@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.link{
+    width: 48px;
+}
+
+aside{
+    background-color: #43a047;
+    width: 57vh;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    align-items: center;
+}
+section{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main{
+    background-color: fff;
+    width: 50%;
+    height: 100vh;
+    float: left;
+    text-align: left;
+    padding-left: 20px;
+    padding-block: auto;
+    align-self: center;
+
+}
+
+.naveg{
+    color: #bdbdbd;
+    text-decoration: none;
+    height: 45px;
+    margin-top: 1110px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0.5px 0.5px 0 #333;
+}
+#perfil{
+    width: 57vh;
+    height: 57vh;
+}
+#titulo {
+    font-family: 'Open Sans', sans-serif;
+    color: #43a047;
+    text-shadow: 2px 2px 0 #333;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px; 
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 12px;  
+}
+#e-mail{
+    text-decoration: none;
+    color: #43a047;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0.5px 0.5px 0 #333;
+}
+ol, ul{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 120%;  
+    margin-left: 30px;
+    width: 550px;
+}
+ul li::before {
+    content: "►"; 
+    margin-right: 10px;
+    color: #43a047; 
+  }
+  ol li::marker {
+    color: #43a047; /* Altere a cor da numeração para vermelho */
+  }
+  #link_site{
+    font-size: 16px;
+    text-decoration: none;
+    color: #43a047;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0.5px 0.5px 0 #333;
+  }
